@@ -5,7 +5,7 @@ Objetivo: Avaliar qual feature pesa mais na determinação do valor do custo do 
 
 Este DataFrame contém valores fictícios de seguros de vida. Meu objetivo aqui é demonstrar como a regressão linear pode ser utilizada para prever esse tipo de caso. Irei usar algumas métricas de avaliação do modelo e determinar quais features mais influenciam o valor do seguro. Em seguida, farei alguns testes de previsão do valor de custo com o modelo de regressão linear e mostrarei a diferença entre o valor predito e o valor real.
 DataFrame original
-Imagem
+
 
 
 
@@ -37,7 +37,7 @@ Imagem
 
 Quantidade de filhos por custo de seguros:
 No caso de 2 a 3 filhos, para o sexo feminino, temos um aumento nos valores do seguro. Já a partir do quarto filho, há uma queda no valor do seguro. Para o sexo masculino, o custo do seguro aumenta a partir do segundo filho e se mantém até o quarto, havendo uma queda nos valores após esse ponto.
-Imagem
+
 ![linha custo -  quantidade de filho](https://github.com/user-attachments/assets/f5121c1d-a078-4948-85b0-a23cc61acb4b)
 
 
@@ -46,7 +46,7 @@ Imagem
 
 
 Aqui verifiquei os valores do custo do seguro e se eles seguem uma padronização, que chamamos de normal ou gaussiana.
-Imagem
+
 
 ![gaussiana](https://github.com/user-attachments/assets/5b5f74b0-a756-41bc-99c9-dad9379dd340)
 
@@ -56,7 +56,7 @@ Imagem
 
 
 Agora plotei um gráfico que relaciona a idade do contratante e a quantidade de filhos que ele possui. Como esperado, temos uma queda na quantidade de filhos a partir do terceiro.
-Imagem
+
 
 ![gaussiana](https://github.com/user-attachments/assets/711f8b01-1008-4160-af15-758234efaef3)
 
