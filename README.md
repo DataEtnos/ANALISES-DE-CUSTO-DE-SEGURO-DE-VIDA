@@ -1,4 +1,8 @@
 Objetivo: Avaliar qual feature pesa mais na determinação do valor do custo do seguro.
+
+
+
+
 Este DataFrame contém valores fictícios de seguros de vida. Meu objetivo aqui é demonstrar como a regressão linear pode ser utilizada para prever esse tipo de caso. Irei usar algumas métricas de avaliação do modelo e determinar quais features mais influenciam o valor do seguro. Em seguida, farei alguns testes de previsão do valor de custo com o modelo de regressão linear e mostrarei a diferença entre o valor predito e o valor real.
 DataFrame original
 Imagem
