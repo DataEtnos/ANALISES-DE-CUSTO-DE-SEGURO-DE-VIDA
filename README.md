@@ -63,6 +63,10 @@ Agora plotei um gráfico que relaciona a idade do contratante e a quantidade de 
 
 
 
+apliquei a tecnica de model select para descobrirmos a primeira resposta e antes de treinar o modelo de regressão lienear 
+![Captura de tela 2024-09-11 131228](https://github.com/user-attachments/assets/713513ce-46b5-4c65-86b5-5d979dcd2427)
+estas são as 4 colunas que respondem a pergunta  qual feature pesa mais na determinação dos valores de custo de um seguro de vida , temos um R2 de o.096 e um R2 ajustado de 0.094  , o R2 e o R2 ajustado são metricas que explica o quanto estes dados explicam meu modelo de regressão linear . quanto mais proximo de 1 mais ele confirma a validação do meu modelo
+
 
 Após todas essas análises, escalonei os dados para que ficassem na mesma escala e comecei a divisão entre treino e teste. Antes disso, apliquei o OrdinalEncoder nas variáveis categóricas, transformando-as em 0 e 1 ou escalando conforme um número ordinal.
 Avaliação do Modelo de Regressão Linear:
